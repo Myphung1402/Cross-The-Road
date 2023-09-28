@@ -1,1 +1,3 @@
-# Cross-The-Road
+# Cross The Road project
+Group 45
+

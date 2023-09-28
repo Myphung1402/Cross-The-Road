@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66.364dp">
+
+    <ImageView
+        android:id="@+id/IVTile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/IVSprite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_marginLeft="9dp"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher">
+    </ImageView>
+
+
+</android.widget.FrameLayout>
